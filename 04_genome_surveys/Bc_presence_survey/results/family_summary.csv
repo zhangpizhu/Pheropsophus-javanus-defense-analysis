@@ -1,0 +1,7 @@
+orthogroup,PJA_copies,other_beetles,queries_with_Bc_hit,identity_range,Bc_copy_estimate,category
+OG0000018,7,26-37,5/7,50-84%,~37 contigs,I (homologs present; 2 short partial model(s) without hit)
+OG0000048,7,16-28,7/7,37-83%,~38 contigs,I (all members with hits)
+OG0000494,1,1-21,1/1,71-71%,~6 contigs,I (all members with hits)
+OG0000273,3,2-33,3/3,46-81%,~30 contigs,I (all members with hits)
+OG0000230,4,2-14,4/4,56-66%,n.a. (CYP superfamily fragmented across 46 orthogroups),I (all members with hits)
+OG0000272,5,2-13,5/5,48-55%,n.a. (CYP superfamily fragmented across 46 orthogroups),I (all members with hits)

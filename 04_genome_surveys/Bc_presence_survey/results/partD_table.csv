@@ -1,0 +1,28 @@
+gene,orthogroup,query_aa,best_hit_gland_S1,best_hit_gland_S1_identity,best_hit_gland_S1_aln_aa,best_hit_combined_S2,best_hit_combined_S2_identity,best_hit_combined_S2_aln_aa,reciprocal_best_hit
+evm.model.Chr1.474,OG0000018,201,Bcrep_Gland_C8424,50.3%,147,Bcrep_COMB_C8452,50.3%,147,-
+evm.model.Chr12.128,OG0000018,492,Bcrep_Gland_C23075,78.3%,92,Bcrep_COMB_C26393,78.3%,92,Chr12.128 (86%)
+evm.model.Chr13.61,OG0000018,304,Bcrep_Gland_C20433,72.7%,66,Bcrep_COMB_C1636,73.8%,210,Chr13.61 (83%)
+evm.model.Chr13.66,OG0000018,390,Bcrep_Gland_C25698,92.0%,50,Bcrep_COMB_C29853,84.3%,83,Chr13.66 (72%)
+evm.model.Chr4.705,OG0000018,432,Bcrep_Gland_C20433,73.5%,98,Bcrep_COMB_C33511,80.8%,73,Chr4.705 (76%)
+evm.model.Chr4.706,OG0000018,63,no hit,-,-,no hit,-,-,-
+evm.model.Unplaced6.11,OG0000018,145,no hit,-,-,no hit,-,-,-
+evm.model.Chr12.542,OG0000048,97,Bcrep_Gland_C30460,55.1%,78,Bcrep_COMB_C39717,55.1%,78,-
+evm.model.Chr12.699,OG0000048,170,Bcrep_Gland_C15815,78.3%,23,Bcrep_COMB_C17207,76.0%,25,Chr5.537 (54%)
+evm.model.Chr12.700,OG0000048,193,Bcrep_Gland_C25989,46.5%,114,Bcrep_COMB_C30255,46.5%,114,Chr5.537 (65%)
+evm.model.Chr5.537,OG0000048,604,Bcrep_Gland_C4762,76.8%,95,Bcrep_COMB_C4696,76.8%,95,Chr5.537 (77%)
+evm.model.Chr5.538,OG0000048,288,Bcrep_Gland_C25989,54.9%,71,Bcrep_COMB_C33441,36.8%,239,Chr5.539 (58%)
+evm.model.Chr5.539,OG0000048,344,no hit,-,-,Bcrep_COMB_C33441,63.9%,169,Chr5.539 (58%)
+evm.model.Chr5.540,OG0000048,75,Bcrep_Gland_C25578,83.0%,53,Bcrep_COMB_C29641,83.0%,53,Chr5.540 (83%)
+evm.model.Chr5.469,OG0000494,624,Bcrep_Gland_C18655,70.7%,300,Bcrep_COMB_C20898,71.0%,300,Chr5.469 (76%)
+evm.model.Chr16.191,OG0000273,299,Bcrep_Gland_C26363,81.3%,150,Bcrep_COMB_C30801,81.3%,150,Chr16.191 (81%)
+evm.model.Chr9.96,OG0000273,336,Bcrep_Gland_C1477,44.9%,325,Bcrep_COMB_C7482,45.7%,326,Chr9.97 (60%)
+evm.model.Chr9.97,OG0000273,574,Bcrep_Gland_C1477,55.0%,331,Bcrep_COMB_C7482,60.4%,333,Chr9.97 (60%)
+evm.model.Chr14.436,OG0000230,493,Bcrep_Gland_C1277,65.8%,494,Bcrep_COMB_C1254,65.8%,494,Chr14.436 (67%)
+evm.model.Chr14.438,OG0000230,462,Bcrep_Gland_C1277,62.3%,398,Bcrep_COMB_C1254,62.3%,398,Chr14.436 (67%)
+evm.model.Chr14.440,OG0000230,458,Bcrep_Gland_C1277,64.5%,451,Bcrep_COMB_C1254,64.5%,451,Chr14.436 (67%)
+evm.model.Chr4.129,OG0000230,392,Bcrep_Gland_C1277,54.7%,395,Bcrep_COMB_C1923,56.5%,393,Chr14.436 (58%)
+evm.model.Chr1.58,OG0000272,389,Bcrep_Gland_C1411,50.1%,355,Bcrep_COMB_C6413,53.4%,388,Chr7.249 (50%)
+evm.model.Chr1.800,OG0000272,388,Bcrep_Gland_C1411,50.1%,355,Bcrep_COMB_C6413,55.3%,365,Chr7.249 (50%)
+evm.model.Chr4.452,OG0000272,415,Bcrep_Gland_C1411,46.0%,404,Bcrep_COMB_C6413,48.3%,414,Chr7.249 (50%)
+evm.model.Chr4.697,OG0000272,359,Bcrep_Gland_C1411,53.6%,388,Bcrep_COMB_C6413,51.6%,397,Chr15.595 (58%)
+evm.model.Chr7.48,OG0000272,397,Bcrep_Gland_C1411,48.5%,390,Bcrep_COMB_C6413,52.0%,400,Chr7.249 (50%)
