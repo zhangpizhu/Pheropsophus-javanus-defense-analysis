@@ -1,4 +1,10 @@
 # Pheropsophus-javanus-defense-analysis
+> **Table renumbering note (v1.1.0, 2026-10-12):** In the final revision of the manuscript
+> (INZ-2026-07-520) the Supplementary Tables were renumbered so that table numbers follow
+> their order of first citation. **This repository uses the final, published numbering
+> throughout.** If you are comparing against the v1.0.0 archive, the mapping
+> (v1.0.0 → final) is: **S24 → S26, S25 → S24, S26 → S25, S33 → S34, S34 → S35,
+> S35 → S36, S36 → S33.** All other table numbers are unchanged.
 
 Analysis scripts accompanying the manuscript:
 
@@ -16,8 +22,8 @@ BioProject **PRJCA050879** (GSA: CRA033330; Genome Warehouse: GWHHAIB00000000.1)
 |---|---|---|
 | `01_gene_family_evolution/` | CAFE5 post-processing and Benjamini-Hochberg corrections | Tables S12-S20 |
 | `02_relax_analysis/` | RELAX (HyPhy) batch pipelines, single-copy and multicopy arms | Table S22, Figure S7 |
-| `03_transcriptomics/` | DESeq2 analyses and the T. castaneum within-species baseline | Figures 3, Tables S23, S25, S26, S30 |
-| `04_genome_surveys/` | GOx genomic survey, OR pseudogenization checks, B. crepitans homolog survey | Tables S7, S35, S36 |
+| `03_transcriptomics/` | DESeq2 analyses and the T. castaneum within-species baseline | Figures 3, Tables S23, S24, S25, S30 |
+| `04_genome_surveys/` | GOx genomic survey, OR pseudogenization checks, B. crepitans homolog survey | Tables S7, S33, S36 |
 | `05_figures/` | Plotting scripts for the main and supplementary figures | Figures 3A/3B, Figure S7 |
 
 ## 01_gene_family_evolution/
@@ -70,7 +76,7 @@ BioProject **PRJCA050879** (GSA: CRA033330; Genome Warehouse: GWHHAIB00000000.1)
   SRR1206008, SRR1206010, SRR1206001), single-end.
 - `TCA_baseline_validation.R` - difference-of-differences validation of the
   PJA_HEGs against the within-species T. castaneum gland baseline
-  (Tables S25, S26).
+  (Tables S24, S25).
 
 ## 04_genome_surveys/
 
@@ -78,13 +84,13 @@ BioProject **PRJCA050879** (GSA: CRA033330; Genome Warehouse: GWHHAIB00000000.1)
   glucose-oxidase-like GMC oxidoreductases with 19 insect queries (Table S7).
   Usage: `bash GOx_tblastn_pipeline.sh <genome.fa> [proteins.fa]`.
 - `OR_expression_check.R` - normalized expression of the 20 odorant-receptor
-  genes from the same `all_counts.txt` matrix (Table S35).
+  genes from the same `all_counts.txt` matrix (Table S36).
 - `OR_CDS_integrity.py` - coding-sequence integrity check (internal stop
   codons / frameshifts). Usage: `python3 OR_CDS_integrity.py cds.fasta`.
 - `Bc_presence_survey/` - targeted tBLASTn/BLASTx survey testing whether the
   six principal contracted gene families retain homologs in the Brachinus
   crepitans gland and combined-tissue transcriptomes (Vogel et al., 2025;
-  Table S35, Part D). Self-contained; see its own README.
+  Table S36, Part D). Self-contained; see its own README.
 
 ## 05_figures/
 
@@ -112,5 +118,7 @@ Supplementary Table S4, results in Tables S5-S6).
 R (>= 4.x) with DESeq2, clusterProfiler, EnhancedVolcano, pheatmap, phytools;
 Python >= 3.8 (standard library only for the correction scripts; pandas +
 matplotlib for plotting); HyPhy (RELAX); BLAST+ >= 2.12; seqkit; CAFE5.
+
+
 
 
