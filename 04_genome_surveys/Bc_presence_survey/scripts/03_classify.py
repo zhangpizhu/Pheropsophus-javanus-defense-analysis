@@ -2,7 +2,7 @@
 """
 Step 03 - Filter tBLASTn hits, run the reciprocal-best-hit check, estimate
           B. crepitans copy numbers, and produce the family classification
-          (Pangdun's categories I/II/III) reported in Supplementary Table S35, Part D.
+          (Pangdun's categories I/II/III) reported in Supplementary Table S36, Part D.
 
 Outputs:
   results/partD_table.csv      per-query survey table (all 27 queries)
@@ -55,7 +55,7 @@ rbh_best = rbh.sort_values("bits", ascending=False).drop_duplicates("s")
 rbh_map = {r["s"]: (r["pja"].replace("PJA|", ""), r["pident"])
            for _, r in rbh_best.iterrows()}
 
-# ---- per-query table (Supplementary Table S35, Part D) ----------------------
+# ---- per-query table (Supplementary Table S36, Part D) ----------------------
 rows = []
 for og, genes in TARGET_FAMILIES.items():
     for g in genes:
